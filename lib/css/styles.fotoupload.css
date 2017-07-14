@@ -1,0 +1,53 @@
+ul#klantenreactieFotoUploader {
+  background-color: red;
+}
+
+ul#klantenreactieFotoUploader li {
+  width: 125px;
+  float: left;
+  margin-bottom: 10px;
+}
+
+ul#klantenreactieFotoUploader li input {
+  display: none;
+}
+
+ul#klantenreactieFotoUploader li img {
+  cursor: pointer;
+  border: solid 1px silver;
+}
+
+#side-sortables ul#klantenreactieFotoUploader li.foto1,
+#side-sortables ul#klantenreactieFotoUploader li.foto3 {
+  margin-right: 12px;
+}
+
+#post-body ul#klantenreactieFotoUploader li {
+  margin-right: 12px;
+}
+
+
+
+
+
+div.clear {
+  float: none;
+  clear: both;
+}
+
+a.actionDelete {
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  margin: 8px 0px 0px 8px;
+  background: url(../../images/42Autos-img-delete.png) no-repeat 0px 0px;
+  display: none;
+  z-index: 1000;
+}
+a.actionDelete span {
+  display: none;
+}
+
+div.imagePrev:hover a.visible {
+  display: block;
+}
